@@ -1,0 +1,83 @@
+.experienceContainer{
+background-color: var(--gray);
+border-radius: 12px;
+
+}
+.experienceWrapper{
+    display: flex;
+    padding: 25px;    
+    
+}
+
+.experienceLeft{
+    width: 30%  ;
+    border-right: 1px solid var(--primary);
+}
+.experienceRight{
+    width: 70%;
+    padding: 0px 20px;
+}
+
+.experienceTime{
+    display: inline-block;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+// center borde
+.centerBorder{
+    margin-top : 20px;
+    margin-bottom: 20px;
+    background-color: var(--primary);
+    height: 2px;
+    padding: 0;
+}
+
+// education
+.educationContainer{
+    background-color: var(--gray);
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 12px;
+    margin: 10px 0px;
+}
+.educationWrapper{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+
+// skills 
+.skillsContainer {
+    text-align: center;
+    flex-direction: column;
+}
+
+.sectionTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skillsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skillItem {
+}
+
+.skillIcon {
+    width: 64px;
+    height: 64px;
+}
+
+.skillName {
+    margin-top: 10px;
+    font-size: 16px;
+}

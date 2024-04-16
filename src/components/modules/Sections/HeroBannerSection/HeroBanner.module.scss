@@ -1,0 +1,40 @@
+.bgImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url('../../../../assets/HeroBannerBg.png');
+    background-size: cover;
+    background-position:top;
+    z-index: -1;
+}
+.heroBannerImg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-image: url('../../../../assets/heroBannerImage.png');
+    background-size: cover;
+    background-position: top;
+}
+
+.heroBannerContainer {
+    position: relative;
+}
+
+.left {
+    padding-right: 15px;
+    /* Adjust as needed */
+}
+
+.right {
+    padding-left: 15px;
+    /* Adjust as needed */
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
